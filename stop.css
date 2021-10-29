@@ -1,0 +1,23 @@
+#con, #btns{
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 13px;
+  
+}
+
+button{
+    padding: 5px 10px;
+    margin: 5px 5px;
+
+}
+
+h1+h1::before{
+    content: ':';
+}
